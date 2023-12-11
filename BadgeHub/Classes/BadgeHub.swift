@@ -17,7 +17,7 @@ fileprivate class BadgeView: UIView {
 
 /// A way to quickly add a notification badge icon to any view.
 /// Make any view of a full-fledged animated notification center.
-public class BadgeHub: NSObject {
+open class BadgeHub: NSObject {
     
     /// Value of current count on badge.
     var count: Int = 0 {
