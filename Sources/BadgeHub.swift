@@ -32,7 +32,7 @@ open class BadgeHub: NSObject {
     var hubView: UIView?
 
     private(set) var curOrderMagnitude: Int = 0
-    private(set) var countLabel: UILabel? {
+    open private(set) var countLabel: UILabel? {
         didSet {
             countLabel?.text = "\(count)"
             checkZero()
