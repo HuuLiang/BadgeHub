@@ -1,5 +1,5 @@
 PODS:
-  - BadgeHub (0.1.1)
+  - BadgeHub (1.0.0)
 
 DEPENDENCIES:
   - BadgeHub (from `../`)
@@ -9,8 +9,8 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  BadgeHub: 8632dc9ab9cfb1bee903ebd40f9de77d29323dc7
+  BadgeHub: 5608b7429776a8b0ebe6fa71ac5fe810523f5fc8
 
 PODFILE CHECKSUM: c0e9ea82a511c7b3c636576ece9097ef9cc2e1ab
 
-COCOAPODS: 1.9.3
+COCOAPODS: 1.12.1

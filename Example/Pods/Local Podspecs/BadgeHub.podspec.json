@@ -1,8 +1,8 @@
 {
   "name": "BadgeHub",
-  "version": "0.1.1",
+  "version": "1.0.0",
   "summary": "A way to quickly add a notification bedge icon to any view.",
-  "description": "Make any UIView a full fledged animated notification center. It is a way to quickly add a notification badge icon to a UIView. It make very easy to add badge to any view.",
+  "description": "Make any view a full fledged animated notification center. It is a way to quickly add a notification badge icon to a UIView. It make very easy to add badge to any view.",
   "homepage": "https://github.com/jogendra/BadgeHub",
   "license": {
     "type": "MIT",
@@ -13,14 +13,14 @@
   },
   "source": {
     "git": "https://github.com/jogendra/BadgeHub.git",
-    "tag": "0.1.1"
+    "tag": "1.0.0"
   },
   "social_media_url": "https://twitter.com/jogendrafx",
   "platforms": {
     "ios": "10.0"
   },
   "swift_versions": "5.0",
-  "source_files": "BadgeHub/Classes/**/*",
+  "source_files": "Sources/**/*",
   "frameworks": [
     "UIKit",
     "QuartzCore"

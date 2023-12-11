@@ -31,7 +31,7 @@ Make any view a full fledged animated notification center. It is a way to quickl
   s.ios.deployment_target = '10.0'
   s.swift_version = '5.0'
 
-  s.source_files = 'BadgeHub/Classes/**/*'
+  s.source_files = 'Sources/**/*'
   
   # s.resource_bundles = {
   #   'BadgeHub' => ['BadgeHub/Assets/*.png']
