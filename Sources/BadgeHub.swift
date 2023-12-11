@@ -64,7 +64,7 @@ open class BadgeHub: NSObject {
     /// Set badge to view. It set default count to `0` and `maxCount` to 100000.
     /// To set count other than `0`, use `setView` method.
     /// - Parameter view: The view on which badge to be set.
-    open init(view: UIView) {
+    public init(view: UIView) {
         super.init()
 
         maxCount = 100_000
@@ -73,7 +73,7 @@ open class BadgeHub: NSObject {
 
     /// Initializer for setting badge to bar button items
     /// - Parameter barButtonItem: Bar button item on which badge to be add.
-    open convenience init?(barButtonItem: UIBarButtonItem) {
+    public convenience init?(barButtonItem: UIBarButtonItem) {
         if let value = barButtonItem.value(forKey: "view") as? UIView {
             self.init(view: value)
             scaleCircleSize(by: 0.7)
